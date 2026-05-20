@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LowQ Certificate",
+  "type": "object",
+  "required": [
+    "proof_type",
+    "version",
+    "created_at",
+    "confidence_level",
+    "project",
+    "baseline_run",
+    "optimized_run",
+    "delta",
+    "proof_discipline",
+    "rubic_audit",
+    "caveat"
+  ],
+  "properties": {
+    "proof_type": {
+      "const": "LOWQ_THERMAL_DELTA_CERTIFICATE"
+    },
+    "version": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "confidence_level": {
+      "type": "string"
+    },
+    "benchmark_grade": {
+      "type": "string"
+    },
+    "baseline_run": {
+      "type": "object"
+    },
+    "optimized_run": {
+      "type": "object"
+    },
+    "delta": {
+      "type": "object"
+    },
+    "repeat_trials": {
+      "type": "object"
+    },
+    "telemetry_evidence": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "simulator_evidence": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "proof_discipline": {
+      "type": "object"
+    },
+    "rubic_audit": {
+      "type": "object"
+    },
+    "caveat": {
+      "type": "string"
+    }
+  }
+}

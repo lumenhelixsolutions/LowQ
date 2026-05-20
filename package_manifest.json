@@ -1,0 +1,12 @@
+{
+  "name": "lowq-phase1-viral-launch-stack",
+  "version": "0.1.0",
+  "created_at": "2026-05-20T04:52:04.559185Z",
+  "description": "LowQ Phase 1 launch-ready repo stack: lab, ROI calculator, landing page, certificate schema, docs, pilot kit, and campaign materials.",
+  "license_model": "Docs/assets CC BY-NC-SA 4.0; code/labs noncommercial evaluation; commercial use requires LowQ license.",
+  "entrypoints": [
+    "landing/lowq_landing_page.html",
+    "roi/lowq_roi_calculator.html",
+    "lab/lowq_lab.html"
+  ]
+}

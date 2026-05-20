@@ -1,0 +1,14 @@
+{
+  "proof_type": "LOWQ_THERMAL_DELTA_CERTIFICATE",
+  "version": "1.0-draft",
+  "confidence_level": "S0_BROWSER_ESTIMATE",
+  "project": "LowQ AI Waste-Heat Reduction System",
+  "benchmark_grade": "S0-BENCH",
+  "delta": {
+    "token_reduction_percent": 22.4,
+    "estimated_energy_reduction_percent": 5.7,
+    "thermal_shadow_reduction_percent": 18.2,
+    "quality_guard_score": 86.0
+  },
+  "caveat": "Sample only. Not hardware evidence."
+}

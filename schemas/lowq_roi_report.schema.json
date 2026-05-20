@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LowQ ROI Report",
+  "type": "object",
+  "properties": {
+    "company": {
+      "type": "string"
+    },
+    "contact_email": {
+      "type": "string"
+    },
+    "estimated_monthly_kwh": {
+      "type": "number"
+    },
+    "estimated_monthly_cost": {
+      "type": "number"
+    },
+    "estimated_savings_range": {
+      "type": "object"
+    },
+    "proof_grade": {
+      "type": "string"
+    }
+  }
+}

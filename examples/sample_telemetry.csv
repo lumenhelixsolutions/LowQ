@@ -1,0 +1,7 @@
+timestamp,label,power_w,temp_c
+0,idle,40,42
+1,baseline,140,51
+2,baseline,150,53
+3,optimized,124,48
+4,optimized,126,49
+5,idle,41,43
