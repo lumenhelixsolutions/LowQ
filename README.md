@@ -4,7 +4,7 @@
 
 LowQ is an AI infrastructure optimization layer for reducing wasteful computation, repeated context processing, memory movement, and inefficient workload routing before those costs become power draw, heat, and cooling burden.
 
-This repository is the **Phase 1 Viral Proof Launch Stack**. It packages the public proof lab, ROI calculator, landing page copy, certificate schema, pilot kit, licensing structure, and go-to-market materials.
+This repository is the **Phase 1 Proof Launch Stack**. It packages the public proof lab, ROI calculator, landing page copy, certificate schema, pilot kit, licensing structure, and go-to-market materials.
 
 ## What is included
 
